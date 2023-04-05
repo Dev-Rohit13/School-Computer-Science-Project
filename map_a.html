@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b0770c400bd3d5bdb251f40aa060879 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b0770c400bd3d5bdb251f40aa060879" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b0770c400bd3d5bdb251f40aa060879 = L.map(
+                "map_7b0770c400bd3d5bdb251f40aa060879",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59a5ce3b88973f6f81895081e6e82584 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+            var marker_1f82ccf65fa3d8b5060bdaf32cf47e9f = L.marker(
+                [35.6892, 51.389],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_bea27b582d30a73f70f96afa714bcebb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25a87e895c7088e2c2e3a76a09b6c9b6 = $(`<div id="html_25a87e895c7088e2c2e3a76a09b6c9b6" style="width: 100.0%; height: 100.0%;"><b>Iran</b><br>Government spending on refugees: $10,000,000 Government spending on foreign affairs: $20,000,000<br>Number of displaced refugees: 1,200,000</div>`)[0];
+                popup_bea27b582d30a73f70f96afa714bcebb.setContent(html_25a87e895c7088e2c2e3a76a09b6c9b6);
+            
+        
+
+        marker_1f82ccf65fa3d8b5060bdaf32cf47e9f.bindPopup(popup_bea27b582d30a73f70f96afa714bcebb)
+        ;
+
+        
+    
+    
+            var marker_1ba0ef2554610183ff55a6de4026c094 = L.marker(
+                [9.145, 40.4897],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_2f4932d521386f8621edc5536c424cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_092736fd0e797b8545233b4f3c3cf82d = $(`<div id="html_092736fd0e797b8545233b4f3c3cf82d" style="width: 100.0%; height: 100.0%;"><b>Ethiopia</b><br>Government spending on refugees: $5,000,000 Government spending on foreign affairs: $10,000,000<br>Number of displaced refugees: 800,000</div>`)[0];
+                popup_2f4932d521386f8621edc5536c424cc5.setContent(html_092736fd0e797b8545233b4f3c3cf82d);
+            
+        
+
+        marker_1ba0ef2554610183ff55a6de4026c094.bindPopup(popup_2f4932d521386f8621edc5536c424cc5)
+        ;
+
+        
+    
+    
+            var marker_79ea6c7ee71ae10c7110e53fa6b17ed4 = L.marker(
+                [23.8103, 90.4125],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_f86bafe6f58442891c99ea40e7ad0f9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_160d891e08e0854bb32ac396e3e1e1b0 = $(`<div id="html_160d891e08e0854bb32ac396e3e1e1b0" style="width: 100.0%; height: 100.0%;"><b>Bangladesh</b><br>Government spending on refugees: $8,000,000 Government spending on foreign affairs: $15,000,000<br>Number of displaced refugees: 900,000</div>`)[0];
+                popup_f86bafe6f58442891c99ea40e7ad0f9d.setContent(html_160d891e08e0854bb32ac396e3e1e1b0);
+            
+        
+
+        marker_79ea6c7ee71ae10c7110e53fa6b17ed4.bindPopup(popup_f86bafe6f58442891c99ea40e7ad0f9d)
+        ;
+
+        
+    
+    
+            var marker_629eb6bf1071c5521c0d201010526f02 = L.marker(
+                [15.5007, 32.5599],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_f00b7d3d805ba55482747e2a13378fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f771edd59b0d4c5c5aefe8bba33c595 = $(`<div id="html_0f771edd59b0d4c5c5aefe8bba33c595" style="width: 100.0%; height: 100.0%;"><b>Sudan</b><br>Government spending on refugees: $3,000,000 Government spending on foreign affairs: $6,000,000<br>Number of displaced refugees: 700,000</div>`)[0];
+                popup_f00b7d3d805ba55482747e2a13378fe4.setContent(html_0f771edd59b0d4c5c5aefe8bba33c595);
+            
+        
+
+        marker_629eb6bf1071c5521c0d201010526f02.bindPopup(popup_f00b7d3d805ba55482747e2a13378fe4)
+        ;
+
+        
+    
+    
+            var marker_c0ae475102611ad27f622bb4b0107b7d = L.marker(
+                [52.2297, 21.0122],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_62abd084865489467b87075b2edd7aa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd5048aac9af1fb0c844b3b91b592c1 = $(`<div id="html_0dd5048aac9af1fb0c844b3b91b592c1" style="width: 100.0%; height: 100.0%;"><b>Poland</b><br>Government spending on refugees: $2,000,000 Government spending on foreign affairs: $4,000,000<br>Number of displaced refugees: 10,000</div>`)[0];
+                popup_62abd084865489467b87075b2edd7aa3.setContent(html_0dd5048aac9af1fb0c844b3b91b592c1);
+            
+        
+
+        marker_c0ae475102611ad27f622bb4b0107b7d.bindPopup(popup_62abd084865489467b87075b2edd7aa3)
+        ;
+
+        
+    
+    
+            var marker_b0caaf58243d90fa08a07950197b8d68 = L.marker(
+                [55.7558, 37.6173],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_fbef8f46e4ab4f5327e8e0af3e9786dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eedbb2a47fed069d0dc260649b619c8b = $(`<div id="html_eedbb2a47fed069d0dc260649b619c8b" style="width: 100.0%; height: 100.0%;"><b>Russia</b><br>Government spending on refugees: $15,000,000 Government spending on foreign affairs: $25,000,000<br>Number of displaced refugees: 100,000</div>`)[0];
+                popup_fbef8f46e4ab4f5327e8e0af3e9786dc.setContent(html_eedbb2a47fed069d0dc260649b619c8b);
+            
+        
+
+        marker_b0caaf58243d90fa08a07950197b8d68.bindPopup(popup_fbef8f46e4ab4f5327e8e0af3e9786dc)
+        ;
+
+        
+    
+    
+            var marker_acfd97d5ee0acf235713fc5893c26496 = L.marker(
+                [0.3476, 32.5825],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_472d5528c3240bce793fcc7ed2fd076d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429d8d4851ba45a7dd5981abdc17070b = $(`<div id="html_429d8d4851ba45a7dd5981abdc17070b" style="width: 100.0%; height: 100.0%;"><b>Uganda</b><br>Government spending on refugees: $4,000,000 Government spending on foreign affairs: $8,000,000<br>Number of displaced refugees: 1,100,000</div>`)[0];
+                popup_472d5528c3240bce793fcc7ed2fd076d.setContent(html_429d8d4851ba45a7dd5981abdc17070b);
+            
+        
+
+        marker_acfd97d5ee0acf235713fc5893c26496.bindPopup(popup_472d5528c3240bce793fcc7ed2fd076d)
+        ;
+
+        
+    
+    
+            var marker_603ca038b4916e219312419bd09d5e1e = L.marker(
+                [33.7294, 73.0931],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_630b8ff1b99172bf7ad0d64dc69ceaca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ebe483ecec2b87d3380d211ce7bab27 = $(`<div id="html_3ebe483ecec2b87d3380d211ce7bab27" style="width: 100.0%; height: 100.0%;"><b>Pakistan</b><br>Government spending on refugees: $6,000,000 Government spending on foreign affairs: $12,000,000<br>Number of displaced refugees: 1,600,000</div>`)[0];
+                popup_630b8ff1b99172bf7ad0d64dc69ceaca.setContent(html_3ebe483ecec2b87d3380d211ce7bab27);
+            
+        
+
+        marker_603ca038b4916e219312419bd09d5e1e.bindPopup(popup_630b8ff1b99172bf7ad0d64dc69ceaca)
+        ;
+
+        
+    
+    
+            var marker_f9889eb3be32f8adeca34045a83eaf19 = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_c31aa70b4fb346414421470684ae900b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4fd92cc82bd19083f0fc575930f7907 = $(`<div id="html_b4fd92cc82bd19083f0fc575930f7907" style="width: 100.0%; height: 100.0%;"><b>Germany</b><br>Government spending on refugees: $7,000,000 Government spending on foreign affairs: $14,000,000<br>Number of displaced refugees: 600,000</div>`)[0];
+                popup_c31aa70b4fb346414421470684ae900b.setContent(html_b4fd92cc82bd19083f0fc575930f7907);
+            
+        
+
+        marker_f9889eb3be32f8adeca34045a83eaf19.bindPopup(popup_c31aa70b4fb346414421470684ae900b)
+        ;
+
+        
+    
+    
+            var marker_0f8ac1c9eda6fae26c0f33f63e7e27f1 = L.marker(
+                [41.0082, 28.9784],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4bcab19a8c9d21a7fe6713389c8f575e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9284147f0e2b7959d53961029f4d9b8 = $(`<div id="html_d9284147f0e2b7959d53961029f4d9b8" style="width: 100.0%; height: 100.0%;"><b>Turkey</b><br>Government spending on refugees: $9,000,000 Government spending on foreign affairs: $18,000,000<br>Number of displaced refugees: 3,600,000</div>`)[0];
+                popup_4bcab19a8c9d21a7fe6713389c8f575e.setContent(html_d9284147f0e2b7959d53961029f4d9b8);
+            
+        
+
+        marker_0f8ac1c9eda6fae26c0f33f63e7e27f1.bindPopup(popup_4bcab19a8c9d21a7fe6713389c8f575e)
+        ;
+
+        
+    
+    
+            var marker_0a50f9f44abe97e673842c686186932c = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_6d556ac868da7dd9d1b49196fc2d9a67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b19f475dc05eca256234521a5dd6318 = $(`<div id="html_8b19f475dc05eca256234521a5dd6318" style="width: 100.0%; height: 100.0%;"><b>India</b><br>Government spending on refugees: $11,000,000 Government spending on foreign affairs: $22,000,000<br>No data available on refugee population</div>`)[0];
+                popup_6d556ac868da7dd9d1b49196fc2d9a67.setContent(html_8b19f475dc05eca256234521a5dd6318);
+            
+        
+
+        marker_0a50f9f44abe97e673842c686186932c.bindPopup(popup_6d556ac868da7dd9d1b49196fc2d9a67)
+        ;
+
+        
+    
+    
+            var marker_0b7e917768429eb87c826f76eb4cd553 = L.marker(
+                [38.9072, -77.0369],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4ff1071c1d83732a71d96aa608fae77d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9908eeca6cd0093490ff10639f59a3f6 = $(`<div id="html_9908eeca6cd0093490ff10639f59a3f6" style="width: 100.0%; height: 100.0%;"><b>United States</b><br>Government spending on refugees: $12,000,000 Government spending on foreign affairs: $24,000,000<br>No data available on refugee population</div>`)[0];
+                popup_4ff1071c1d83732a71d96aa608fae77d.setContent(html_9908eeca6cd0093490ff10639f59a3f6);
+            
+        
+
+        marker_0b7e917768429eb87c826f76eb4cd553.bindPopup(popup_4ff1071c1d83732a71d96aa608fae77d)
+        ;
+
+        
+    
+    
+            var marker_a0855de5b440608264efeb278a9adb94 = L.marker(
+                [-15.7942, -47.8825],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_a43481a3bba2745365af7d3119f82604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0d06da69aaf64683b220862fd1ee452 = $(`<div id="html_a0d06da69aaf64683b220862fd1ee452" style="width: 100.0%; height: 100.0%;"><b>Brazil</b><br>Government spending on refugees: $13,000,000 Government spending on foreign affairs: $26,000,000<br>No data available on refugee population</div>`)[0];
+                popup_a43481a3bba2745365af7d3119f82604.setContent(html_a0d06da69aaf64683b220862fd1ee452);
+            
+        
+
+        marker_a0855de5b440608264efeb278a9adb94.bindPopup(popup_a43481a3bba2745365af7d3119f82604)
+        ;
+
+        
+    
+    
+            var marker_543a4f35e73f74dea64514f699f95576 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_f0d7ba85bd6209bdd8ae9db0f026aa3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc33b0d6c2d9e2062a0afa3f15fb1a86 = $(`<div id="html_cc33b0d6c2d9e2062a0afa3f15fb1a86" style="width: 100.0%; height: 100.0%;"><b>China</b><br>Government spending on refugees: $14,000,000 Government spending on foreign affairs: $28,000,000<br>No data available on refugee population</div>`)[0];
+                popup_f0d7ba85bd6209bdd8ae9db0f026aa3f.setContent(html_cc33b0d6c2d9e2062a0afa3f15fb1a86);
+            
+        
+
+        marker_543a4f35e73f74dea64514f699f95576.bindPopup(popup_f0d7ba85bd6209bdd8ae9db0f026aa3f)
+        ;
+
+        
+    
+    
+            var marker_ff6d28f1ce5627d1360812e9db58c8c5 = L.marker(
+                [-6.1751, 106.865],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_464e891d44eeaa9744f9b0a005592cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45e78d3ff5d7a3748175c86f7f5758c3 = $(`<div id="html_45e78d3ff5d7a3748175c86f7f5758c3" style="width: 100.0%; height: 100.0%;"><b>Indonesia</b><br>Government spending on refugees: $15,000,000 Government spending on foreign affairs: $30,000,000<br>No data available on refugee population</div>`)[0];
+                popup_464e891d44eeaa9744f9b0a005592cb3.setContent(html_45e78d3ff5d7a3748175c86f7f5758c3);
+            
+        
+
+        marker_ff6d28f1ce5627d1360812e9db58c8c5.bindPopup(popup_464e891d44eeaa9744f9b0a005592cb3)
+        ;
+
+        
+    
+    
+            var marker_b19f84442fe4328d692e7dae9a72ee78 = L.marker(
+                [9.0578, 7.4951],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ded0a6abe9d166fba3fb2472a069440c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a705a492ac8170910d2bdcbd2917926c = $(`<div id="html_a705a492ac8170910d2bdcbd2917926c" style="width: 100.0%; height: 100.0%;"><b>Nigeria</b><br>Government spending on refugees: $16,000,000 Government spending on foreign affairs: $32,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ded0a6abe9d166fba3fb2472a069440c.setContent(html_a705a492ac8170910d2bdcbd2917926c);
+            
+        
+
+        marker_b19f84442fe4328d692e7dae9a72ee78.bindPopup(popup_ded0a6abe9d166fba3fb2472a069440c)
+        ;
+
+        
+    
+    
+            var marker_61152727a7bd12190f428aea65bb887c = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_3bab5e7575569aaaed168ab86c0f8501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3028cb14108a1eff002aa6eb42f03406 = $(`<div id="html_3028cb14108a1eff002aa6eb42f03406" style="width: 100.0%; height: 100.0%;"><b>Japan</b><br>Government spending on refugees: $17,000,000 Government spending on foreign affairs: $34,000,000<br>No data available on refugee population</div>`)[0];
+                popup_3bab5e7575569aaaed168ab86c0f8501.setContent(html_3028cb14108a1eff002aa6eb42f03406);
+            
+        
+
+        marker_61152727a7bd12190f428aea65bb887c.bindPopup(popup_3bab5e7575569aaaed168ab86c0f8501)
+        ;
+
+        
+    
+    
+            var marker_049374117879b89ec8bc537d98758a96 = L.marker(
+                [19.4326, -99.1332],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_b89004994b1f65b8a187c052a1c79cc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b64377cbd787d3e360d8abd1e99e1cc2 = $(`<div id="html_b64377cbd787d3e360d8abd1e99e1cc2" style="width: 100.0%; height: 100.0%;"><b>Mexico</b><br>Government spending on refugees: $18,000,000 Government spending on foreign affairs: $36,000,000<br>No data available on refugee population</div>`)[0];
+                popup_b89004994b1f65b8a187c052a1c79cc9.setContent(html_b64377cbd787d3e360d8abd1e99e1cc2);
+            
+        
+
+        marker_049374117879b89ec8bc537d98758a96.bindPopup(popup_b89004994b1f65b8a187c052a1c79cc9)
+        ;
+
+        
+    
+    
+            var marker_89c460af91a9ed8e324d519cbfdb8269 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_615b3dba2df96e5999f2e367eebb03bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d5433fe681b7bbb77f1ff4209360caf = $(`<div id="html_1d5433fe681b7bbb77f1ff4209360caf" style="width: 100.0%; height: 100.0%;"><b>France</b><br>Government spending on refugees: $19,000,000 Government spending on foreign affairs: $38,000,000<br>No data available on refugee population</div>`)[0];
+                popup_615b3dba2df96e5999f2e367eebb03bd.setContent(html_1d5433fe681b7bbb77f1ff4209360caf);
+            
+        
+
+        marker_89c460af91a9ed8e324d519cbfdb8269.bindPopup(popup_615b3dba2df96e5999f2e367eebb03bd)
+        ;
+
+        
+    
+    
+            var marker_56b08fbe4acebb44d478e632a1076cf7 = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_49ea05f5390d7587d186fa0eea902bbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba9be6640987b95ab3dff3b7dbd8a95 = $(`<div id="html_7ba9be6640987b95ab3dff3b7dbd8a95" style="width: 100.0%; height: 100.0%;"><b>United Kingdom</b><br>Government spending on refugees: $20,000,000 Government spending on foreign affairs: $40,000,000<br>No data available on refugee population</div>`)[0];
+                popup_49ea05f5390d7587d186fa0eea902bbc.setContent(html_7ba9be6640987b95ab3dff3b7dbd8a95);
+            
+        
+
+        marker_56b08fbe4acebb44d478e632a1076cf7.bindPopup(popup_49ea05f5390d7587d186fa0eea902bbc)
+        ;
+
+        
+    
+    
+            var marker_f1ede2c669e04c85038e7b95f9928d4e = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4a43614e02f68600014623e6f8fa3b23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d8d7cecb6dd301fb1a94305e153e8f2 = $(`<div id="html_9d8d7cecb6dd301fb1a94305e153e8f2" style="width: 100.0%; height: 100.0%;"><b>Italy</b><br>Government spending on refugees: $21,000,000 Government spending on foreign affairs: $42,000,000<br>No data available on refugee population</div>`)[0];
+                popup_4a43614e02f68600014623e6f8fa3b23.setContent(html_9d8d7cecb6dd301fb1a94305e153e8f2);
+            
+        
+
+        marker_f1ede2c669e04c85038e7b95f9928d4e.bindPopup(popup_4a43614e02f68600014623e6f8fa3b23)
+        ;
+
+        
+    
+    
+            var marker_461f0eb6a22208ecb35bc2e249679943 = L.marker(
+                [-25.7461, 28.1881],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_fc8d689e0a3a609fabe7893ecea70021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6cca6f1d30f6c6ab5f7aa126c7088b9 = $(`<div id="html_a6cca6f1d30f6c6ab5f7aa126c7088b9" style="width: 100.0%; height: 100.0%;"><b>South Africa</b><br>Government spending on refugees: $22,000,000 Government spending on foreign affairs: $44,000,000<br>No data available on refugee population</div>`)[0];
+                popup_fc8d689e0a3a609fabe7893ecea70021.setContent(html_a6cca6f1d30f6c6ab5f7aa126c7088b9);
+            
+        
+
+        marker_461f0eb6a22208ecb35bc2e249679943.bindPopup(popup_fc8d689e0a3a609fabe7893ecea70021)
+        ;
+
+        
+    
+    
+            var marker_85b907bae5cb1d7435c671b5bb643b80 = L.marker(
+                [37.5665, 126.978],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_05a62ba283bafaba593c5290526e3454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_803c72d82fad77dc5f2e75e0af9cad15 = $(`<div id="html_803c72d82fad77dc5f2e75e0af9cad15" style="width: 100.0%; height: 100.0%;"><b>South Korea</b><br>Government spending on refugees: $23,000,000 Government spending on foreign affairs: $46,000,000<br>No data available on refugee population</div>`)[0];
+                popup_05a62ba283bafaba593c5290526e3454.setContent(html_803c72d82fad77dc5f2e75e0af9cad15);
+            
+        
+
+        marker_85b907bae5cb1d7435c671b5bb643b80.bindPopup(popup_05a62ba283bafaba593c5290526e3454)
+        ;
+
+        
+    
+    
+            var marker_0c6aaa5897e56c842aef1057fcb6f5bc = L.marker(
+                [45.4215, -75.6972],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_1f8dafbd66e05fa2ed08ea6338703e90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fa63f846c371d6042f421c8f6b6a837 = $(`<div id="html_4fa63f846c371d6042f421c8f6b6a837" style="width: 100.0%; height: 100.0%;"><b>Canada</b><br>Government spending on refugees: $24,000,000 Government spending on foreign affairs: $48,000,000<br>No data available on refugee population</div>`)[0];
+                popup_1f8dafbd66e05fa2ed08ea6338703e90.setContent(html_4fa63f846c371d6042f421c8f6b6a837);
+            
+        
+
+        marker_0c6aaa5897e56c842aef1057fcb6f5bc.bindPopup(popup_1f8dafbd66e05fa2ed08ea6338703e90)
+        ;
+
+        
+    
+    
+            var marker_0a19d148b3e5ca6aecde9b07871678c1 = L.marker(
+                [-35.2809, 149.13],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_7b30e59095dd55d4b0f2bf9485b608ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfad869703205fb38ee7e7f3158512a9 = $(`<div id="html_cfad869703205fb38ee7e7f3158512a9" style="width: 100.0%; height: 100.0%;"><b>Australia</b><br>Government spending on refugees: $25,000,000 Government spending on foreign affairs: $50,000,000<br>No data available on refugee population</div>`)[0];
+                popup_7b30e59095dd55d4b0f2bf9485b608ef.setContent(html_cfad869703205fb38ee7e7f3158512a9);
+            
+        
+
+        marker_0a19d148b3e5ca6aecde9b07871678c1.bindPopup(popup_7b30e59095dd55d4b0f2bf9485b608ef)
+        ;
+
+        
+    
+    
+            var marker_f4e5996e54891dd4dae651c5f5f3baa9 = L.marker(
+                [-34.6037, -58.3816],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ff3dde1b38c56b082011073f391e0195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8265c00bd5c6f04c612972187e51e76 = $(`<div id="html_d8265c00bd5c6f04c612972187e51e76" style="width: 100.0%; height: 100.0%;"><b>Argentina</b><br>Government spending on refugees: $26,000,000 Government spending on foreign affairs: $52,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ff3dde1b38c56b082011073f391e0195.setContent(html_d8265c00bd5c6f04c612972187e51e76);
+            
+        
+
+        marker_f4e5996e54891dd4dae651c5f5f3baa9.bindPopup(popup_ff3dde1b38c56b082011073f391e0195)
+        ;
+
+        
+    
+    
+            var marker_c812691419800dbbe2ee705b348cbc7c = L.marker(
+                [40.4168, -3.7038],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_fdf559ba8d8791aca0b31a775dfb0598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aad6049c4f96d3f65034225ea1c4f74 = $(`<div id="html_4aad6049c4f96d3f65034225ea1c4f74" style="width: 100.0%; height: 100.0%;"><b>Spain</b><br>Government spending on refugees: $27,000,000 Government spending on foreign affairs: $54,000,000<br>No data available on refugee population</div>`)[0];
+                popup_fdf559ba8d8791aca0b31a775dfb0598.setContent(html_4aad6049c4f96d3f65034225ea1c4f74);
+            
+        
+
+        marker_c812691419800dbbe2ee705b348cbc7c.bindPopup(popup_fdf559ba8d8791aca0b31a775dfb0598)
+        ;
+
+        
+    
+    
+            var marker_62add6d3e48da2e314c986ba7923406d = L.marker(
+                [50.4501, 30.5234],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_1e0aaecd54b1daab18be9f2a64382857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74b1c55f541aabbe32f1a39d7daa8c47 = $(`<div id="html_74b1c55f541aabbe32f1a39d7daa8c47" style="width: 100.0%; height: 100.0%;"><b>Ukraine</b><br>Government spending on refugees: $28,000,000 Government spending on foreign affairs: $56,000,000<br>No data available on refugee population</div>`)[0];
+                popup_1e0aaecd54b1daab18be9f2a64382857.setContent(html_74b1c55f541aabbe32f1a39d7daa8c47);
+            
+        
+
+        marker_62add6d3e48da2e314c986ba7923406d.bindPopup(popup_1e0aaecd54b1daab18be9f2a64382857)
+        ;
+
+        
+    
+    
+            var marker_7e4f57e42881d0c671b65e736ad78954 = L.marker(
+                [4.71, -74.0721],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_7154c05d182c41ebd5433d58704ac183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359bab4e7dbd8ea14bc9a24315a10e63 = $(`<div id="html_359bab4e7dbd8ea14bc9a24315a10e63" style="width: 100.0%; height: 100.0%;"><b>Colombia</b><br>Government spending on refugees: $29,000,000 Government spending on foreign affairs: $58,000,000<br>No data available on refugee population</div>`)[0];
+                popup_7154c05d182c41ebd5433d58704ac183.setContent(html_359bab4e7dbd8ea14bc9a24315a10e63);
+            
+        
+
+        marker_7e4f57e42881d0c671b65e736ad78954.bindPopup(popup_7154c05d182c41ebd5433d58704ac183)
+        ;
+
+        
+    
+    
+            var marker_86575923a19b63f599c8a690c636a333 = L.marker(
+                [52.3702, 4.8952],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_5261f9faf9a96efdc848c571ffc21c21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7adab1ef64e694e507df1235aedfae74 = $(`<div id="html_7adab1ef64e694e507df1235aedfae74" style="width: 100.0%; height: 100.0%;"><b>Netherlands</b><br>Government spending on refugees: $30,000,000 Government spending on foreign affairs: $60,000,000<br>No data available on refugee population</div>`)[0];
+                popup_5261f9faf9a96efdc848c571ffc21c21.setContent(html_7adab1ef64e694e507df1235aedfae74);
+            
+        
+
+        marker_86575923a19b63f599c8a690c636a333.bindPopup(popup_5261f9faf9a96efdc848c571ffc21c21)
+        ;
+
+        
+    
+    
+            var marker_a0cdddfc07993850b9817cb8d90c4952 = L.marker(
+                [24.7136, 46.6753],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_0df2383c051edce2925c79c53c0ff6a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cff9ba5c7fa9fc7b755855a6b09f4ef = $(`<div id="html_1cff9ba5c7fa9fc7b755855a6b09f4ef" style="width: 100.0%; height: 100.0%;"><b>Saudi Arabia</b><br>Government spending on refugees: $31,000,000 Government spending on foreign affairs: $62,000,000<br>No data available on refugee population</div>`)[0];
+                popup_0df2383c051edce2925c79c53c0ff6a9.setContent(html_1cff9ba5c7fa9fc7b755855a6b09f4ef);
+            
+        
+
+        marker_a0cdddfc07993850b9817cb8d90c4952.bindPopup(popup_0df2383c051edce2925c79c53c0ff6a9)
+        ;
+
+        
+    
+    
+            var marker_51792855abad954b000efc146cd935bf = L.marker(
+                [30.0444, 31.2357],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4041811fc490e154d745c5c14ad82da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa61483adc6ac94bc1685d8e3e6c8e24 = $(`<div id="html_aa61483adc6ac94bc1685d8e3e6c8e24" style="width: 100.0%; height: 100.0%;"><b>Egypt</b><br>Government spending on refugees: $32,000,000 Government spending on foreign affairs: $64,000,000<br>No data available on refugee population</div>`)[0];
+                popup_4041811fc490e154d745c5c14ad82da2.setContent(html_aa61483adc6ac94bc1685d8e3e6c8e24);
+            
+        
+
+        marker_51792855abad954b000efc146cd935bf.bindPopup(popup_4041811fc490e154d745c5c14ad82da2)
+        ;
+
+        
+    
+    
+            var marker_13b85353d0723cfaddc321577814d166 = L.marker(
+                [-12.0464, -77.0428],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_1c117c7f9d160f5f455436c2992c46e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0480f2e987ba6b7d712578c0b657446d = $(`<div id="html_0480f2e987ba6b7d712578c0b657446d" style="width: 100.0%; height: 100.0%;"><b>Peru</b><br>Government spending on refugees: $33,000,000 Government spending on foreign affairs: $66,000,000<br>No data available on refugee population</div>`)[0];
+                popup_1c117c7f9d160f5f455436c2992c46e2.setContent(html_0480f2e987ba6b7d712578c0b657446d);
+            
+        
+
+        marker_13b85353d0723cfaddc321577814d166.bindPopup(popup_1c117c7f9d160f5f455436c2992c46e2)
+        ;
+
+        
+    
+    
+            var marker_c8296f8c05640c16bac1700097117850 = L.marker(
+                [33.3128, 44.3615],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_17d05ae0629a61b6e2649eef1d8f3686 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e68d89fdcb38b2b0a5104f09744100 = $(`<div id="html_80e68d89fdcb38b2b0a5104f09744100" style="width: 100.0%; height: 100.0%;"><b>Iraq</b><br>Government spending on refugees: $34,000,000 Government spending on foreign affairs: $68,000,000<br>No data available on refugee population</div>`)[0];
+                popup_17d05ae0629a61b6e2649eef1d8f3686.setContent(html_80e68d89fdcb38b2b0a5104f09744100);
+            
+        
+
+        marker_c8296f8c05640c16bac1700097117850.bindPopup(popup_17d05ae0629a61b6e2649eef1d8f3686)
+        ;
+
+        
+    
+    
+            var marker_a1a4124f89985a873c7c84856c5fedd0 = L.marker(
+                [14.5995, 120.9842],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ef6aa341c20a585d20c6565c4b494c78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4200c97fada88346ba646784e913efa5 = $(`<div id="html_4200c97fada88346ba646784e913efa5" style="width: 100.0%; height: 100.0%;"><b>Philippines</b><br>Government spending on refugees: $35,000,000 Government spending on foreign affairs: $70,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ef6aa341c20a585d20c6565c4b494c78.setContent(html_4200c97fada88346ba646784e913efa5);
+            
+        
+
+        marker_a1a4124f89985a873c7c84856c5fedd0.bindPopup(popup_ef6aa341c20a585d20c6565c4b494c78)
+        ;
+
+        
+    
+    
+            var marker_181dad383c18f95863b3532eb26a091f = L.marker(
+                [13.7563, 100.5018],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ba60b935414e2d00c7b3680a248ebecd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5f8cd7057699dc98248062dd684395d = $(`<div id="html_c5f8cd7057699dc98248062dd684395d" style="width: 100.0%; height: 100.0%;"><b>Thailand</b><br>Government spending on refugees: $36,000,000 Government spending on foreign affairs: $72,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ba60b935414e2d00c7b3680a248ebecd.setContent(html_c5f8cd7057699dc98248062dd684395d);
+            
+        
+
+        marker_181dad383c18f95863b3532eb26a091f.bindPopup(popup_ba60b935414e2d00c7b3680a248ebecd)
+        ;
+
+        
+    
+    
+            var marker_9d63a337a940c4015e535df81cda7a40 = L.marker(
+                [59.3293, 18.0686],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_673512fd643b4da1ce8e85aa39ae8eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e5ead395029d54490635d5521512095 = $(`<div id="html_4e5ead395029d54490635d5521512095" style="width: 100.0%; height: 100.0%;"><b>Sweden</b><br>Government spending on refugees: $37,000,000 Government spending on foreign affairs: $74,000,000<br>No data available on refugee population</div>`)[0];
+                popup_673512fd643b4da1ce8e85aa39ae8eef.setContent(html_4e5ead395029d54490635d5521512095);
+            
+        
+
+        marker_9d63a337a940c4015e535df81cda7a40.bindPopup(popup_673512fd643b4da1ce8e85aa39ae8eef)
+        ;
+
+        
+    
+    
+            var marker_0cacd9f6cfda8a71f129774a1a477117 = L.marker(
+                [59.9139, 10.7522],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4e05d442d1447108955d063429cfdbae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac15fa0dc90ef35961f1dfe6caf35377 = $(`<div id="html_ac15fa0dc90ef35961f1dfe6caf35377" style="width: 100.0%; height: 100.0%;"><b>Norway</b><br>Government spending on refugees: $38,000,000 Government spending on foreign affairs: $76,000,000<br>No data available on refugee population</div>`)[0];
+                popup_4e05d442d1447108955d063429cfdbae.setContent(html_ac15fa0dc90ef35961f1dfe6caf35377);
+            
+        
+
+        marker_0cacd9f6cfda8a71f129774a1a477117.bindPopup(popup_4e05d442d1447108955d063429cfdbae)
+        ;
+
+        
+    
+    
+            var marker_e4bf7d674651c06aaa95a03c2fdbe918 = L.marker(
+                [50.8503, 4.3517],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_1c9998c605c0b307549cc937f4ef4249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe13360b9b972c255a39242825694413 = $(`<div id="html_fe13360b9b972c255a39242825694413" style="width: 100.0%; height: 100.0%;"><b>Belgium</b><br>Government spending on refugees: $39,000,000 Government spending on foreign affairs: $78,000,000<br>No data available on refugee population</div>`)[0];
+                popup_1c9998c605c0b307549cc937f4ef4249.setContent(html_fe13360b9b972c255a39242825694413);
+            
+        
+
+        marker_e4bf7d674651c06aaa95a03c2fdbe918.bindPopup(popup_1c9998c605c0b307549cc937f4ef4249)
+        ;
+
+        
+    
+    
+            var marker_3d7eeab808ffe4d5d024a7c3b93c6dfb = L.marker(
+                [46.9479, 7.4474],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_c4b68602dfdfced4183810c289b250cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5079a35321d54b9279a0b34e1e55732 = $(`<div id="html_f5079a35321d54b9279a0b34e1e55732" style="width: 100.0%; height: 100.0%;"><b>Switzerland</b><br>Government spending on refugees: $40,000,000 Government spending on foreign affairs: $80,000,000<br>No data available on refugee population</div>`)[0];
+                popup_c4b68602dfdfced4183810c289b250cb.setContent(html_f5079a35321d54b9279a0b34e1e55732);
+            
+        
+
+        marker_3d7eeab808ffe4d5d024a7c3b93c6dfb.bindPopup(popup_c4b68602dfdfced4183810c289b250cb)
+        ;
+
+        
+    
+    
+            var marker_a97a8e17498ea45faa06eacd3e01745a = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_f609151869d5fe4e8f0305e989773659 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91bcd906e387fc08b19f1da32828d4b2 = $(`<div id="html_91bcd906e387fc08b19f1da32828d4b2" style="width: 100.0%; height: 100.0%;"><b>Austria</b><br>Government spending on refugees: $41,000,000 Government spending on foreign affairs: $82,000,000<br>No data available on refugee population</div>`)[0];
+                popup_f609151869d5fe4e8f0305e989773659.setContent(html_91bcd906e387fc08b19f1da32828d4b2);
+            
+        
+
+        marker_a97a8e17498ea45faa06eacd3e01745a.bindPopup(popup_f609151869d5fe4e8f0305e989773659)
+        ;
+
+        
+    
+    
+            var marker_f89bb6d901289f86fd1f6caa95345c75 = L.marker(
+                [55.6761, 12.5683],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_19726d4f1ad3a291a58540f62c19f2ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11bd3821211dd29f82db5967fe6cdf72 = $(`<div id="html_11bd3821211dd29f82db5967fe6cdf72" style="width: 100.0%; height: 100.0%;"><b>Denmark</b><br>Government spending on refugees: $42,000,000 Government spending on foreign affairs: $84,000,000<br>No data available on refugee population</div>`)[0];
+                popup_19726d4f1ad3a291a58540f62c19f2ae.setContent(html_11bd3821211dd29f82db5967fe6cdf72);
+            
+        
+
+        marker_f89bb6d901289f86fd1f6caa95345c75.bindPopup(popup_19726d4f1ad3a291a58540f62c19f2ae)
+        ;
+
+        
+    
+    
+            var marker_915588a6f41394c3739206866d3638da = L.marker(
+                [60.1699, 24.9384],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_0d159bdcc803d794766f8a56fc4732ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb51ea6e571d8feaf9da8a8da816038e = $(`<div id="html_eb51ea6e571d8feaf9da8a8da816038e" style="width: 100.0%; height: 100.0%;"><b>Finland</b><br>Government spending on refugees: $43,000,000 Government spending on foreign affairs: $86,000,000<br>No data available on refugee population</div>`)[0];
+                popup_0d159bdcc803d794766f8a56fc4732ed.setContent(html_eb51ea6e571d8feaf9da8a8da816038e);
+            
+        
+
+        marker_915588a6f41394c3739206866d3638da.bindPopup(popup_0d159bdcc803d794766f8a56fc4732ed)
+        ;
+
+        
+    
+    
+            var marker_c9d09e3bce271836f54e1905242b2bf9 = L.marker(
+                [31.7683, 35.2137],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_267f5e515844a3706f25852b083226dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3dbd653d130f4cb7aa9ffa2dfc55d8a = $(`<div id="html_c3dbd653d130f4cb7aa9ffa2dfc55d8a" style="width: 100.0%; height: 100.0%;"><b>Israel</b><br>Government spending on refugees: $44,000,000 Government spending on foreign affairs: $88,000,000<br>No data available on refugee population</div>`)[0];
+                popup_267f5e515844a3706f25852b083226dc.setContent(html_c3dbd653d130f4cb7aa9ffa2dfc55d8a);
+            
+        
+
+        marker_c9d09e3bce271836f54e1905242b2bf9.bindPopup(popup_267f5e515844a3706f25852b083226dc)
+        ;
+
+        
+    
+    
+            var marker_b12ec47ee9ae751b7f8d736c25a2aba6 = L.marker(
+                [37.9838, 23.7275],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_a8b9215c17189586e19b6c1ed81e802d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_369da578459f0108de0c556537b6c217 = $(`<div id="html_369da578459f0108de0c556537b6c217" style="width: 100.0%; height: 100.0%;"><b>Greece</b><br>Government spending on refugees: $45,000,000 Government spending on foreign affairs: $90,000,000<br>No data available on refugee population</div>`)[0];
+                popup_a8b9215c17189586e19b6c1ed81e802d.setContent(html_369da578459f0108de0c556537b6c217);
+            
+        
+
+        marker_b12ec47ee9ae751b7f8d736c25a2aba6.bindPopup(popup_a8b9215c17189586e19b6c1ed81e802d)
+        ;
+
+        
+    
+    
+            var marker_46d63479b0fe8e9e97e6115426a2aba7 = L.marker(
+                [50.0755, 14.4378],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_548039bd4fe680ba97ee4366d1e237b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c788f5fe07dc84186a04c54cf72906ab = $(`<div id="html_c788f5fe07dc84186a04c54cf72906ab" style="width: 100.0%; height: 100.0%;"><b>Czech Republic</b><br>Government spending on refugees: $46,000,000 Government spending on foreign affairs: $92,000,000<br>No data available on refugee population</div>`)[0];
+                popup_548039bd4fe680ba97ee4366d1e237b5.setContent(html_c788f5fe07dc84186a04c54cf72906ab);
+            
+        
+
+        marker_46d63479b0fe8e9e97e6115426a2aba7.bindPopup(popup_548039bd4fe680ba97ee4366d1e237b5)
+        ;
+
+        
+    
+    
+            var marker_dce6107341b9ba5a0100403eb33cb16a = L.marker(
+                [38.7223, -9.1393],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_4b039bdf7d49ac343ef21577ad399aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb4c27d414122f310792ac9fece14515 = $(`<div id="html_cb4c27d414122f310792ac9fece14515" style="width: 100.0%; height: 100.0%;"><b>Portugal</b><br>Government spending on refugees: $47,000,000 Government spending on foreign affairs: $94,000,000<br>No data available on refugee population</div>`)[0];
+                popup_4b039bdf7d49ac343ef21577ad399aaa.setContent(html_cb4c27d414122f310792ac9fece14515);
+            
+        
+
+        marker_dce6107341b9ba5a0100403eb33cb16a.bindPopup(popup_4b039bdf7d49ac343ef21577ad399aaa)
+        ;
+
+        
+    
+    
+            var marker_4a9ef8d0956add8dc5b6390d966fc0af = L.marker(
+                [47.4979, 19.0402],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_3bf5da11f9f4251eb80f59b4f5bfd920 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bf739d9d8f4c3c203a59c321a3ee3cb = $(`<div id="html_2bf739d9d8f4c3c203a59c321a3ee3cb" style="width: 100.0%; height: 100.0%;"><b>Hungary</b><br>Government spending on refugees: $48,000,000 Government spending on foreign affairs: $96,000,000<br>No data available on refugee population</div>`)[0];
+                popup_3bf5da11f9f4251eb80f59b4f5bfd920.setContent(html_2bf739d9d8f4c3c203a59c321a3ee3cb);
+            
+        
+
+        marker_4a9ef8d0956add8dc5b6390d966fc0af.bindPopup(popup_3bf5da11f9f4251eb80f59b4f5bfd920)
+        ;
+
+        
+    
+    
+            var marker_549940f42b74609a4c9966e4d1157f1a = L.marker(
+                [53.3498, -6.2603],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_2808c9c9f9cd64639310988a469a815c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9275bcf644fbd5f4cf33863924e09031 = $(`<div id="html_9275bcf644fbd5f4cf33863924e09031" style="width: 100.0%; height: 100.0%;"><b>Ireland</b><br>Government spending on refugees: $49,000,000 Government spending on foreign affairs: $98,000,000<br>No data available on refugee population</div>`)[0];
+                popup_2808c9c9f9cd64639310988a469a815c.setContent(html_9275bcf644fbd5f4cf33863924e09031);
+            
+        
+
+        marker_549940f42b74609a4c9966e4d1157f1a.bindPopup(popup_2808c9c9f9cd64639310988a469a815c)
+        ;
+
+        
+    
+    
+            var marker_9bb3732e24efbe03320cab91e4df0773 = L.marker(
+                [44.4268, 26.1025],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_d0b33732acc9e29c3017ef6a229e21bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b17cc90ac96b0f200f0a39dbba7eb3d = $(`<div id="html_8b17cc90ac96b0f200f0a39dbba7eb3d" style="width: 100.0%; height: 100.0%;"><b>Romania</b><br>Government spending on refugees: $50,000,000 Government spending on foreign affairs: $100,000,000<br>No data available on refugee population</div>`)[0];
+                popup_d0b33732acc9e29c3017ef6a229e21bb.setContent(html_8b17cc90ac96b0f200f0a39dbba7eb3d);
+            
+        
+
+        marker_9bb3732e24efbe03320cab91e4df0773.bindPopup(popup_d0b33732acc9e29c3017ef6a229e21bb)
+        ;
+
+        
+    
+    
+            var marker_5bbbfc6de5f2b72d53a3e993b5d4bc0d = L.marker(
+                [-41.2865, 174.7762],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_31cff7846032e126636d0a1d030022e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebeb6b9adcbe1c82efb8701883dfa44f = $(`<div id="html_ebeb6b9adcbe1c82efb8701883dfa44f" style="width: 100.0%; height: 100.0%;"><b>New Zealand</b><br>Government spending on refugees: $51,000,000 Government spending on foreign affairs: $102,000,000<br>No data available on refugee population</div>`)[0];
+                popup_31cff7846032e126636d0a1d030022e9.setContent(html_ebeb6b9adcbe1c82efb8701883dfa44f);
+            
+        
+
+        marker_5bbbfc6de5f2b72d53a3e993b5d4bc0d.bindPopup(popup_31cff7846032e126636d0a1d030022e9)
+        ;
+
+        
+    
+    
+            var marker_d32432d5c0a110f6f0619ff2a66a1018 = L.marker(
+                [1.3521, 103.8198],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_61b2b79ac681f9b729ad0712d3240bba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c194e0e66000b7fe562d2a7b03da9e47 = $(`<div id="html_c194e0e66000b7fe562d2a7b03da9e47" style="width: 100.0%; height: 100.0%;"><b>Singapore</b><br>Government spending on refugees: $52,000,000 Government spending on foreign affairs: $104,000,000<br>No data available on refugee population</div>`)[0];
+                popup_61b2b79ac681f9b729ad0712d3240bba.setContent(html_c194e0e66000b7fe562d2a7b03da9e47);
+            
+        
+
+        marker_d32432d5c0a110f6f0619ff2a66a1018.bindPopup(popup_61b2b79ac681f9b729ad0712d3240bba)
+        ;
+
+        
+    
+    
+            var marker_fb8a1c3f3060c786314eed351890dba8 = L.marker(
+                [3.139, 101.6869],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_75d70ffd6346693987e83082f0e4342d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_012548c0a663879a38a739984d7b6a36 = $(`<div id="html_012548c0a663879a38a739984d7b6a36" style="width: 100.0%; height: 100.0%;"><b>Malaysia</b><br>Government spending on refugees: $53,000,000 Government spending on foreign affairs: $106,000,000<br>No data available on refugee population</div>`)[0];
+                popup_75d70ffd6346693987e83082f0e4342d.setContent(html_012548c0a663879a38a739984d7b6a36);
+            
+        
+
+        marker_fb8a1c3f3060c786314eed351890dba8.bindPopup(popup_75d70ffd6346693987e83082f0e4342d)
+        ;
+
+        
+    
+    
+            var marker_93fc21131756ba20d6f2b791de753514 = L.marker(
+                [10.4806, -66.9036],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_2f8d3c676f98481d4e987588517f1a8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a1a42aa1bce9b6d9b0dc860a9e388c8 = $(`<div id="html_1a1a42aa1bce9b6d9b0dc860a9e388c8" style="width: 100.0%; height: 100.0%;"><b>Venezuela</b><br>Government spending on refugees: $54,000,000 Government spending on foreign affairs: $108,000,000<br>No data available on refugee population</div>`)[0];
+                popup_2f8d3c676f98481d4e987588517f1a8f.setContent(html_1a1a42aa1bce9b6d9b0dc860a9e388c8);
+            
+        
+
+        marker_93fc21131756ba20d6f2b791de753514.bindPopup(popup_2f8d3c676f98481d4e987588517f1a8f)
+        ;
+
+        
+    
+    
+            var marker_6505fea9e9befda7ff26d180e7efe45c = L.marker(
+                [-33.4489, -70.6693],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_e084d51e5173c3a3fb9ec38078f56f2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b734ea16f96a9f1f0cdc2b250d4e8a1d = $(`<div id="html_b734ea16f96a9f1f0cdc2b250d4e8a1d" style="width: 100.0%; height: 100.0%;"><b>Chile</b><br>Government spending on refugees: $55,000,000 Government spending on foreign affairs: $110,000,000<br>No data available on refugee population</div>`)[0];
+                popup_e084d51e5173c3a3fb9ec38078f56f2f.setContent(html_b734ea16f96a9f1f0cdc2b250d4e8a1d);
+            
+        
+
+        marker_6505fea9e9befda7ff26d180e7efe45c.bindPopup(popup_e084d51e5173c3a3fb9ec38078f56f2f)
+        ;
+
+        
+    
+    
+            var marker_5485b1df7e37621ad35734550c4595e1 = L.marker(
+                [51.1605, 71.4704],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ec2d0b75703967f0a805d7f6b9ba852a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_999f9b9ff4905edc936e6d31baf18dc7 = $(`<div id="html_999f9b9ff4905edc936e6d31baf18dc7" style="width: 100.0%; height: 100.0%;"><b>Kazakhstan</b><br>Government spending on refugees: $56,000,000 Government spending on foreign affairs: $112,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ec2d0b75703967f0a805d7f6b9ba852a.setContent(html_999f9b9ff4905edc936e6d31baf18dc7);
+            
+        
+
+        marker_5485b1df7e37621ad35734550c4595e1.bindPopup(popup_ec2d0b75703967f0a805d7f6b9ba852a)
+        ;
+
+        
+    
+    
+            var marker_2f21d679cb174e937b12784e6fd509c7 = L.marker(
+                [31.6295, -7.9811],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_e4b6e9d303c1eb2089f4b4d6e0d28c7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b17257155b9128fbf0d9dabd343acb = $(`<div id="html_63b17257155b9128fbf0d9dabd343acb" style="width: 100.0%; height: 100.0%;"><b>Morocco</b><br>Government spending on refugees: $57,000,000 Government spending on foreign affairs: $114,000,000<br>No data available on refugee population</div>`)[0];
+                popup_e4b6e9d303c1eb2089f4b4d6e0d28c7b.setContent(html_63b17257155b9128fbf0d9dabd343acb);
+            
+        
+
+        marker_2f21d679cb174e937b12784e6fd509c7.bindPopup(popup_e4b6e9d303c1eb2089f4b4d6e0d28c7b)
+        ;
+
+        
+    
+    
+            var marker_9351c9eea4bc8f8e9494798f03d84c5b = L.marker(
+                [36.7538, 3.0588],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_8c1b97aaf2fb5071a4c4b65de376aff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5855f680d5412407679ca255c185ce76 = $(`<div id="html_5855f680d5412407679ca255c185ce76" style="width: 100.0%; height: 100.0%;"><b>Algeria</b><br>Government spending on refugees: $58,000,000 Government spending on foreign affairs: $116,000,000<br>No data available on refugee population</div>`)[0];
+                popup_8c1b97aaf2fb5071a4c4b65de376aff6.setContent(html_5855f680d5412407679ca255c185ce76);
+            
+        
+
+        marker_9351c9eea4bc8f8e9494798f03d84c5b.bindPopup(popup_8c1b97aaf2fb5071a4c4b65de376aff6)
+        ;
+
+        
+    
+    
+            var marker_c1a59e40b1b78a436f85f4d8aa2a7787 = L.marker(
+                [21.0285, 105.8542],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_b865c7f263ae9303bcbf152e1752b568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46aa7057762b74c9605567b565f3d706 = $(`<div id="html_46aa7057762b74c9605567b565f3d706" style="width: 100.0%; height: 100.0%;"><b>Vietnam</b><br>Government spending on refugees: $59,000,000 Government spending on foreign affairs: $118,000,000<br>No data available on refugee population</div>`)[0];
+                popup_b865c7f263ae9303bcbf152e1752b568.setContent(html_46aa7057762b74c9605567b565f3d706);
+            
+        
+
+        marker_c1a59e40b1b78a436f85f4d8aa2a7787.bindPopup(popup_b865c7f263ae9303bcbf152e1752b568)
+        ;
+
+        
+    
+    
+            var marker_2e2f07cf889cdb805b19f1f76799c202 = L.marker(
+                [-6.7924, 39.2083],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ae181b008c09980fd83199c30d32aa71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80c758c9df53a2134f0a7ca5bc46fccf = $(`<div id="html_80c758c9df53a2134f0a7ca5bc46fccf" style="width: 100.0%; height: 100.0%;"><b>Tanzania</b><br>Government spending on refugees: $60,000,000 Government spending on foreign affairs: $120,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ae181b008c09980fd83199c30d32aa71.setContent(html_80c758c9df53a2134f0a7ca5bc46fccf);
+            
+        
+
+        marker_2e2f07cf889cdb805b19f1f76799c202.bindPopup(popup_ae181b008c09980fd83199c30d32aa71)
+        ;
+
+        
+    
+    
+            var marker_480e52f9a00e2ae6b4424c5fe005cf62 = L.marker(
+                [-1.2921, 36.8219],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_3ecccada6cd3aa0b51c92b36f198d386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ed3ef82b7ae771fba1fcf2e9bfb5839 = $(`<div id="html_3ed3ef82b7ae771fba1fcf2e9bfb5839" style="width: 100.0%; height: 100.0%;"><b>Kenya</b><br>Government spending on refugees: $61,000,000 Government spending on foreign affairs: $122,000,000<br>No data available on refugee population</div>`)[0];
+                popup_3ecccada6cd3aa0b51c92b36f198d386.setContent(html_3ed3ef82b7ae771fba1fcf2e9bfb5839);
+            
+        
+
+        marker_480e52f9a00e2ae6b4424c5fe005cf62.bindPopup(popup_3ecccada6cd3aa0b51c92b36f198d386)
+        ;
+
+        
+    
+    
+            var marker_925edfe7056b41eb0d63e12f796c99cc = L.marker(
+                [-8.839, 13.2894],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_9f25b0d30a9bc39634d7d4d0f8aa2e8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da2b377e043593f0e250a8bf16b040f5 = $(`<div id="html_da2b377e043593f0e250a8bf16b040f5" style="width: 100.0%; height: 100.0%;"><b>Angola</b><br>Government spending on refugees: $62,000,000 Government spending on foreign affairs: $124,000,000<br>No data available on refugee population</div>`)[0];
+                popup_9f25b0d30a9bc39634d7d4d0f8aa2e8a.setContent(html_da2b377e043593f0e250a8bf16b040f5);
+            
+        
+
+        marker_925edfe7056b41eb0d63e12f796c99cc.bindPopup(popup_9f25b0d30a9bc39634d7d4d0f8aa2e8a)
+        ;
+
+        
+    
+    
+            var marker_6af8cae32fa18f80898841c156594311 = L.marker(
+                [5.56, -0.2057],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ebace05516e6a59a7c8b8c49e06cc831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39b60535c00622dc5b1398903fcdc8e4 = $(`<div id="html_39b60535c00622dc5b1398903fcdc8e4" style="width: 100.0%; height: 100.0%;"><b>Ghana</b><br>Government spending on refugees: $63,000,000 Government spending on foreign affairs: $126,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ebace05516e6a59a7c8b8c49e06cc831.setContent(html_39b60535c00622dc5b1398903fcdc8e4);
+            
+        
+
+        marker_6af8cae32fa18f80898841c156594311.bindPopup(popup_ebace05516e6a59a7c8b8c49e06cc831)
+        ;
+
+        
+    
+    
+            var marker_780db7b1a66d33b26711ef9b15d66a1f = L.marker(
+                [-17.8292, 31.0521],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_409337a457dcaea2903d7c2550fea98c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b631e1f75708b180b6ca67044c5f7568 = $(`<div id="html_b631e1f75708b180b6ca67044c5f7568" style="width: 100.0%; height: 100.0%;"><b>Zimbabwe</b><br>Government spending on refugees: $64,000,000 Government spending on foreign affairs: $128,000,000<br>No data available on refugee population</div>`)[0];
+                popup_409337a457dcaea2903d7c2550fea98c.setContent(html_b631e1f75708b180b6ca67044c5f7568);
+            
+        
+
+        marker_780db7b1a66d33b26711ef9b15d66a1f.bindPopup(popup_409337a457dcaea2903d7c2550fea98c)
+        ;
+
+        
+    
+    
+            var marker_eb0485024a9afa8d31f647e7155f3923 = L.marker(
+                [36.8065, 10.1815],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_a6a7c53aba729f40832b6fe79bc0220d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6653700cb9cfa49d3d15cb62445b21c = $(`<div id="html_d6653700cb9cfa49d3d15cb62445b21c" style="width: 100.0%; height: 100.0%;"><b>Tunisia</b><br>Government spending on refugees: $65,000,000 Government spending on foreign affairs: $130,000,000<br>No data available on refugee population</div>`)[0];
+                popup_a6a7c53aba729f40832b6fe79bc0220d.setContent(html_d6653700cb9cfa49d3d15cb62445b21c);
+            
+        
+
+        marker_eb0485024a9afa8d31f647e7155f3923.bindPopup(popup_a6a7c53aba729f40832b6fe79bc0220d)
+        ;
+
+        
+    
+    
+            var marker_ff08adae9f3810df8411c6bae49d3755 = L.marker(
+                [31.9454, 35.9284],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_1dce0c9add8f2de4755cba9dfd55b295 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c827a1f165f18aee10245371b150b049 = $(`<div id="html_c827a1f165f18aee10245371b150b049" style="width: 100.0%; height: 100.0%;"><b>Jordan</b><br>Government spending on refugees: $66,000,000 Government spending on foreign affairs: $132,000,000<br>No data available on refugee population</div>`)[0];
+                popup_1dce0c9add8f2de4755cba9dfd55b295.setContent(html_c827a1f165f18aee10245371b150b049);
+            
+        
+
+        marker_ff08adae9f3810df8411c6bae49d3755.bindPopup(popup_1dce0c9add8f2de4755cba9dfd55b295)
+        ;
+
+        
+    
+    
+            var marker_a64f82687a3d623476229995b7722fb2 = L.marker(
+                [33.8938, 35.5018],
+                {}
+            ).addTo(map_7b0770c400bd3d5bdb251f40aa060879);
+        
+    
+        var popup_ccb4a10abd7a9c501766603ed4338d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f09249ea58ec5a82cd8ff12b3908f14 = $(`<div id="html_6f09249ea58ec5a82cd8ff12b3908f14" style="width: 100.0%; height: 100.0%;"><b>Lebanon</b><br>Government spending on refugees: $67,000,000 Government spending on foreign affairs: $134,000,000<br>No data available on refugee population</div>`)[0];
+                popup_ccb4a10abd7a9c501766603ed4338d10.setContent(html_6f09249ea58ec5a82cd8ff12b3908f14);
+            
+        
+
+        marker_a64f82687a3d623476229995b7722fb2.bindPopup(popup_ccb4a10abd7a9c501766603ed4338d10)
+        ;
+
+        
+    
+</script>
+</html>
