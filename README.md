@@ -16,3 +16,7 @@ Test 3.py and Test 4.py are test files used for testing the code in the Heat Map
 
 
 Map.html can be disregarded, was a test html file output (As all of the html files are generated from the python) and this is not a neccessary file.
+
+
+
+To dowload the maps, click into one of them, right click on raw, and clickl save as. Then open the html file and it will show you the heat map. 
